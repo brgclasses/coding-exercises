@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Parent Child Relationships - HTML, CSS and JS Exercises</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, sans-serif;
+      }
+      .page-content {
+        max-width: 550px;
+        margin: 2rem;
+      }
+      .header-title {
+        text-align: center;
+      }
+      .messages .message-box {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 14px;
+        border-radius: 5px;
+        line-height: 1.5em;
+        background: #fff;
+        /* border: 1px solid #eee; */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      .messages .message-box > .message-author {
+        font-size: 14px;
+        font-weight: 700;
+        color: #333;
+      }
+      .messages .message-box > .message-content {
+        margin: 0;
+        color: #555;
+      }
+      .messages .message-box > .message-time {
+        display: block;
+        font-size: 12px;
+        color: blue;
+        text-align: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page-content">
+      <div class="header">
+        <h1 class="header-title">Messages</h1>
+      </div>
+      <div class="messages">
+        <div class="message-box">
+          <div class="message-author">Foo</div>
+          <p class="message-content">
+            Do you know when we are going to have our Web Practicals?
+          </p>
+          <span class="message-time">11 AM</span>
+        </div>
+        <div class="message-box">
+          <div class="message-author">Bar</div>
+          <p class="message-content">
+            I think it on 21st of this month.
+          </p>
+          <span class="message-time">11:15 AM</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
