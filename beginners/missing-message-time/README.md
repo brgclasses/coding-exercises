@@ -12,9 +12,6 @@ Perform following tasks:
 
 - Add time `11:15 AM` to the second message. Identify the correct location to add the new tag along with the correct class attribute.
 - Move the time to the right side of the message box. Identify the correct location to add the CSS property.
-
-### Extra tasks
-
 - Give the box shadow to message box to make it more attractive. (Hint: `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);`)
 - See removing `border` of the message box make box beautiful or not.
 

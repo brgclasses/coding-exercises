@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML, CSS and JS Exercises - Semantic Tags</title>
+
+  <style>
+    body {
+      font-family: Helvetica, sans-serif;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      margin: auto;
+    }
+    #header #nav ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 2rem;
+    }
+    #header #nav ul li a {
+      color: #fff;
+    }
+    /* we need to divide page into two sections now: main and sidebar */
+    #main {
+      width: 60%;
+      margin: auto;
+    }
+    .article {
+      background-color: #eee;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    #footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    #contact {
+      margin-bottom: 2rem;
+    }
+
+  </style>
+</head>
+<body>
+  <!--
+    Update the following HTML code as per instructions.
+    With this exercise, you will learn how to use semantic elements.
+
+    NOTE: Even after changing the div to its semantic names, the output should be same.
+  -->
+
+  <!-- Header -->
+  <!-- change div to header -->
+  <div id="header" class="card text-center">
+    <h1>Simple HTML5 Web Page</h1>
+    <p>Just Another HTML5 Website</p>
+
+    <!-- Navigation -->
+    <!-- change div to nav -->
+    <div id="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- main (left) -->
+  <!-- change div to main -->
+  <div id="main">
+
+    <!-- About -->
+    <!-- change div to section -->
+    <div id="about" class="section-padding">
+      <h2>About Us</h2>
+
+      <div class="intro-content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+          veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+          totam accusantium officiis!
+        </p>
+      </div>
+    </div>
+
+    <!-- Blogs -->
+    <!-- change div to section -->
+    <div id="blogs" class="section-padding section-bg-light">
+      <h2>Our Blogs</h2>
+
+      <!-- Article One -->
+      <!-- change div to article -->
+      <div class="article">
+        <h3>Article One</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+          veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+          totam accusantium officiis!
+        </p>
+      </div>
+
+      <!-- Article Two -->
+      <!-- change div to article -->
+      <div class="article">
+        <h3>Article Two</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+          veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+          totam accusantium officiis!
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <!-- change div to section -->
+    <div id="contact" class="section-padding card">
+      <h2>Contact Us</h2>
+
+      <div id="form">
+        <form action="#">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" value="" placeholder="Enter first name ...">
+
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" value="" placeholder="Enter last name ..."><br><br>
+
+          <label for="query">Your query:</label><br>
+          <textarea id="query" rows="4" cols="50" placeholder="Enter your query ..."></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <!-- change div to footer -->
+  <div id="footer">
+    <p class="text-center">Copyright &copy; BRG Classes 2021</p>
+  </div>
+</body>
+</html>
