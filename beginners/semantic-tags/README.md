@@ -12,7 +12,7 @@ __NOTE:__ Even after changing the div to its semantic names, the output should b
 
 ## Required Knowledge
 
-- See [Semantic Tags](https://www.w3schools.com/html/html5_semantic_elements.asp){:target="_blank"}
+- See [Semantic Tags](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ## Starter code
 
